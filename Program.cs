@@ -31,3 +31,15 @@ string[] ArrayTreeSimvol (string[] array)
     }
     return ArrayTreeSimvol;
 }
+
+// создаем метот void print
+
+void Print (string[]  array )
+{
+    for (int i = 0 ; i < array.Length; i ++)
+    {
+        Conole.Write($"{array[i]}, ");
+
+    }
+    Console.WriteLine();
+}
