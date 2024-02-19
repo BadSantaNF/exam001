@@ -1,4 +1,5 @@
 ﻿// создаем метот для разделения строки
+
 string[] GetArrayStringConsole (string inConsolSimvol)
 {
     string[] arraySimvol = new string[inConsolSimvol.Length];
@@ -33,14 +34,14 @@ string[] GetArrayThreeSimvol (string[] array)
     return arrayThreeSimvol;
 }
 
+
 // создаем метот void print
 
-void Print (string[]  array )
+void Print (string[] array)
 {
-    for (int i = 0 ; i < array.Length; i ++)
+    for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"{array[i]}, ");
-
     }
     Console.WriteLine();
 }
